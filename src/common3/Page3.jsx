@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import MultiCheckboxes from "../components/MultiCheckboxes";
 import reactImg from "../images/React-icon.png";
 import ImageGallary from "./ImageGallary";
 
@@ -54,7 +55,9 @@ const Page3 = () => {
           )}
         </div>
         <div className="shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)] p-4 w-full ">
-          <div className="w-full">Waiting...</div>
+          <div className="w-full">
+            <MultiCheckboxes/>
+          </div>
         </div>
       </div>
       <div className="grid   grid-flow-row gap-4 p-4 sm:grid-cols-1 md:grid-cols-1  lg:grid-cols-1">
