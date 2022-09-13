@@ -48,9 +48,7 @@ const Carousel = ({ children }) => {
   });
   return (
     <>
-      <div className="flex">
-        {/* <div className="text-[18px]">Carousel</div> */}
-      </div>
+      <div className="flex"></div>
       <div
         className="overflow-hidden relative"
         onMouseEnter={() => setPaused(true)}

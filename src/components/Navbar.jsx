@@ -83,22 +83,13 @@ const Navbar = () => {
 
         <div className="flex items-center justify-between gap-10 mr-28 text-white lg:flex lg:items-center lg:w-auto">
           <div className="md:flex-grow lg:flex-grow">
+            <Link to="/home">ComponentsI</Link>
+          </div>
+          <div className="md:flex-grow lg:flex-grow">
             <Link to="/page2">ComponentsII</Link>
           </div>
           <div className="lg:flex-grow">
             <Link to="/page3">ComponentIII</Link>
-          </div>
-          <div className="lg:flex-grow">
-            <a href="#">Link</a>
-          </div>
-          <div className="lg:flex-grow">
-            <a href="#">Link</a>
-          </div>
-          <div className="lg:flex-grow">
-            <a href="#">Link</a>
-          </div>
-          <div className="lg:flex-grow">
-            <a href="#">Link</a>
           </div>
         </div>
         <div className="block lg:hidden">

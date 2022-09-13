@@ -703,6 +703,10 @@ header {
   width: 80%;
 }
 /* gallery */
+.gallery-img {
+  min-width: 100%;
+  width: 100%;
+}
 .img-hover-zoom {
   height: 500px;
   min-height: 500px;
